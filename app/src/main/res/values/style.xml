@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>   <!-- 기본 툴바를 사용 안함 -->
+        <item name="windowNoTitle">true</item>      <!-- 툴바 타이틀을 안나오게 함 -->
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>   <!-- 기본 툴바를 사용 안함 -->
+        <item name="windowNoTitle">true</item>      <!-- 툴바 타이틀을 안나오게 함 -->
+    </style>
+</resources>
